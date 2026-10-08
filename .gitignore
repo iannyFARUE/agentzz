@@ -215,7 +215,3 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
-
-# Windows shortcuts
-*.lnk
-module-6/deployment/docker-compose.yml
