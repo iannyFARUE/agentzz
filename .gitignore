@@ -215,3 +215,40 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+
+# ---- Project-specific additions ----
+
+# Secrets: ignore every .env variant but keep the template
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# LangGraph / LangSmith local dev server state
+.langgraph_api/
+.langgraph/
+
+# Local SQLite checkpoints and databases (langgraph-checkpoint-sqlite)
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# Editors / IDEs
+.vscode/
+*.code-workspace
+*.swp
+*~
+
+# Tooling caches
+.ruff_cache/
+.uv/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Notebook / experiment outputs
+outputs/
+data/tmp/
+*.tmp
