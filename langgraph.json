@@ -4,7 +4,8 @@
     "simple_graph": "./src/agent/simple.py:graph",
     "router": "./src/agent/router.py:graph",
     "agent": "./src/agent/agent.py:graph",
-    "chatbot": "./src/agent/chatbot.py:graph"
+    "chatbot": "./src/agent/chatbot.py:graph",
+    "dynamic_breakpoints": "./src/agent/dynamic_breakpoints.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",
