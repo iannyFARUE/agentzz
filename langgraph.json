@@ -5,7 +5,8 @@
     "router": "./src/agent/router.py:graph",
     "agent": "./src/agent/agent.py:graph",
     "chatbot": "./src/agent/chatbot.py:graph",
-    "dynamic_breakpoints": "./src/agent/dynamic_breakpoints.py:graph"
+    "dynamic_breakpoints": "./src/agent/dynamic_breakpoints.py:graph",
+    "parallelization": "./src/agent/parallelization.py:graph"
   },
   "env": "./.env",
   "python_version": "3.11",
